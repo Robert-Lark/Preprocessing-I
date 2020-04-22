@@ -254,7 +254,7 @@ html {
 }
 @media (max-width: 500px) {
   .container section.contact {
-    margin: -27% 0% 0% 70%;
+    margin: 90% 0% 0% 45%;
   }
 }
 .container section.contact ol.contactinfo {
@@ -262,6 +262,14 @@ html {
   font-weight: bold;
   color: black;
   font-family: 'Courier New', Courier, monospace;
+}
+@media (max-width: 500px) {
+  .container section.contact ol.contactinfo {
+    margin: 90% 0% 0% 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .container section.contact ol.contactinfo li {
   padding: 25px;
@@ -278,7 +286,7 @@ html {
 }
 @media (max-width: 500px) {
   .container section.workHistorySkills {
-    margin: -27% 0% 0% 70%;
+    margin: -167% 50% 75% 35%;
   }
 }
 .container section.workHistorySkills h3 {
@@ -295,7 +303,18 @@ html {
   color: grey;
   text-align: center;
 }
-.container p.footer {
+@media (max-width: 500px) {
+  .container .workHistorySkills p {
+    border: 2px solid black;
+    padding: 1px 10px 1px 1px;
+  }
+}
+@media (max-width: 500px) {
+  .container footer {
+    margin: 5% -5% 1% 1%;
+  }
+}
+.container footer p.footer {
   font-size: 2rem;
   color: grey;
   text-align: center;
