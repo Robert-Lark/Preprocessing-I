@@ -60,4 +60,113 @@ html, body {
 html {
 	background-color: white;
 	font-size: 62.5%;
+	
 }
+.tempBorder(){
+	border: 2px solid black;
+}
+.defaultDisplay1() {
+	display: flex;
+	justify-content: center;
+}
+.defaultDisplay2() {
+	display:flex;
+	justify-content: space-evenly;
+}
+.defaultFontAttributes1() {
+	font-size: 5rem;
+	color: grey;
+}
+.defaultFontAttributes2() {
+	font-size: 3rem;
+	font-weight: bold;
+	color: black;
+	font-family: 'Courier New', Courier, monospace
+}
+.defaultFontAttributes3() {
+	font-size: 2rem;
+	font-weight: bold;
+	color: black;
+}
+
+header {
+	.defaultDisplay1();
+	background-color: slategrey;
+	height: 250px;	
+
+	div.heading {
+		background-color: whitesmoke;
+		margin: 10px 50px 0px 50px;
+		width: 600px;
+		height: 90%;
+			
+		h1 {
+			.tempBorder();	
+			text-align: center;
+			background-color: whitesmoke;
+			padding: 20px;
+			width: 550px;
+			height: 70%;
+			margin-left: 4%;
+			margin-top: 5%;
+			font-family: 'Times New Roman', Times, serif;
+			font-size: 6rem;
+
+			span.subHeading{
+				margin: 15px 0px 15px 90px;
+				display: table;
+				text-align: center;
+				font-size: 3rem;
+			}
+		}
+	}
+}
+
+section.navbar {
+	background-color: palegoldenrod;
+	height: 70px;
+	
+	nav {
+		.defaultDisplay2();
+		
+		a {
+			padding: 10px;
+			margin-top: .6%;
+			.defaultFontAttributes3();
+			text-decoration: none;
+		}
+	}
+}
+a:hover {
+	
+	color: tomato;
+	background-color: slategray;
+	border-radius: 120%;
+}
+div.image {
+	margin: 0% 40%;
+	width: 10%;
+	.defaultDisplay1();
+	
+	img	{
+		border-radius: 45px;
+		width: 200px;
+		height: 100%;
+	}
+}
+section.intro {
+	.tempBorder();
+	width: 30%;
+	height: 100%;
+	margin: 10px 10px 10px 10px;
+	h3 {
+		.defaultFontAttributes2();
+		text-align: center;
+		
+		p {
+			color: red;
+		}
+	}
+}
+
+

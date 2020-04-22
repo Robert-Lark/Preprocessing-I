@@ -138,3 +138,81 @@ html {
   background-color: white;
   font-size: 62.5%;
 }
+header {
+  display: flex;
+  justify-content: center;
+  background-color: slategrey;
+  height: 250px;
+}
+header div.heading {
+  background-color: whitesmoke;
+  margin: 10px 50px 0px 50px;
+  width: 600px;
+  height: 90%;
+}
+header div.heading h1 {
+  border: 2px solid black;
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 20px;
+  width: 550px;
+  height: 70%;
+  margin-left: 4%;
+  margin-top: 5%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 6rem;
+}
+header div.heading h1 span.subHeading {
+  margin: 15px 0px 15px 90px;
+  display: table;
+  text-align: center;
+  font-size: 3rem;
+}
+section.navbar {
+  background-color: palegoldenrod;
+  height: 70px;
+}
+section.navbar nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+section.navbar nav a {
+  padding: 10px;
+  margin-top: 0.6%;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: tomato;
+  background-color: slategray;
+  border-radius: 120%;
+}
+div.image {
+  margin: 0% 40%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+div.image img {
+  border-radius: 45px;
+  width: 200px;
+  height: 100%;
+}
+section.intro {
+  border: 2px solid black;
+  width: 30%;
+  height: 100%;
+  margin: 10px 10px 10px 10px;
+}
+section.intro h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+section.intro h3 p {
+  color: red;
+}
